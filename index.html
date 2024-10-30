@@ -6,9 +6,25 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- <link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="https://xytiqtechnologies.com/xmlrpc.php"> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>
+			::-webkit-scrollbar {
+				width: 8px;
+			}
+
+			::-webkit-scrollbar-thumb {
+				background-color: #888;
+				border-radius: 10px;
+			}
+
+			::-webkit-scrollbar-thumb:hover {
+				background-color: #555;
+			}
+
 			.fluid-width-video-wrapper {
 				width: 100%;
 				position: relative;
@@ -26,8 +42,12 @@
 			}
 		</style>
 	</div>
-	<script src="./XytiQ technologies_files/jquery.min.js.download"></script>
-	<script src="./XytiQ technologies_files/bootstrap.min.js.download"></script>
+
+
+
+
+	<script src="./js/jquery.min.js.download"></script>
+	<script src="./js/bootstrap.min.js.download"></script>
 	<link rel="shortcut icon" href="https://xytiqtechnologies.com/wp-content/uploads/2018/05/Layer-1.png"
 		type="image/png">
 	<link rel="apple-touch-icon"
@@ -47,11 +67,7 @@
 		href="https://xytiqtechnologies.com/comments/feed/">
 	<link rel="alternate" type="application/rss+xml" title="XytiQ technologies » Home Dark Version Comments Feed"
 		href="https://xytiqtechnologies.com/home-dark-version/feed/">
-	<!-- <script type="text/javascript">
-		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/xytiqtechnologies.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.14" } };
-		!function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
-	</script> -->
-	<script src="./XytiQ technologies_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+	<script src="./js/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
 	<style type="text/css">
 		img.wp-smiley,
 		img.emoji {
@@ -66,13 +82,9 @@
 			padding: 0 !important;
 		}
 	</style>
-	<link rel="stylesheet" id="wp-block-library-css" href="./XytiQ technologies_files/style.min.css" type="text/css"
-		media="all">
-	<link rel="stylesheet" id="rs-plugin-settings-css" href="./XytiQ technologies_files/settings.css" type="text/css"
-		media="all">
+	<link rel="stylesheet" id="wp-block-library-css" href="./css/style.min.css" type="text/css" media="all">
+	<link rel="stylesheet" id="rs-plugin-settings-css" href="./css/settings.css" type="text/css" media="all">
 	<style id="rs-plugin-settings-inline-css" type="text/css">
-		#rs-demo-id {}
-
 		.tp-caption.Libre Franklin,
 		.Libre Franklin {
 			color: #ffffff;
@@ -80,7 +92,7 @@
 			line-height: 61px;
 			font-weight: 900;
 			font-style: normal;
-			font-family: ;
+			font-family: Libre Franklin;
 			text-decoration: none;
 			background-color: transparent;
 			border-color: transparent;
@@ -92,8 +104,6 @@
 		#rev_slider_3_1_wrapper .tp-loader.spinner4 div {
 			background-color: #FFFFFF !important;
 		}
-
-		.hermes.tp-bullets {}
 
 		.hermes .tp-bullet {
 			overflow: hidden;
@@ -128,35 +138,25 @@
 			height: 100%;
 		}
 	</style>
-	<link rel="stylesheet" id="contact-form-7-css" href="./XytiQ technologies_files/styles.css" type="text/css"
-		media="all">
-	<link rel="stylesheet" id="demeter-fonts-css" href="./XytiQ technologies_files/css" type="text/css" media="all">
-	<link rel="stylesheet" id="base-css" href="./XytiQ technologies_files/base.css" type="text/css" media="all">
-	<link rel="stylesheet" id="skeleton-css" href="./XytiQ technologies_files/skeleton.css" type="text/css" media="all">
-	<link rel="stylesheet" id="demeter-font-awesome-css" href="./XytiQ technologies_files/font-awesome.css"
-		type="text/css" media="all">
-	<link rel="stylesheet" id="flaticon-css" href="./XytiQ technologies_files/flaticon.css" type="text/css" media="all">
-	<link rel="stylesheet" id="owl.carousel-css" href="./XytiQ technologies_files/owl.carousel.css" type="text/css"
-		media="all">
-	<link rel="stylesheet" id="revolution-css" href="./XytiQ technologies_files/settings(1).css" type="text/css"
-		media="all">
-	<link rel="stylesheet" id="retina-css" href="./XytiQ technologies_files/retina.css" type="text/css" media="all">
-	<link rel="stylesheet" id="colorbox-css" href="./XytiQ technologies_files/colorbox.css" type="text/css" media="all">
-	<link rel="stylesheet" id="style-css" href="./XytiQ technologies_files/style.css" type="text/css" media="all">
-	<link rel="stylesheet" id="dark-color-css" href="./XytiQ technologies_files/dark-color.css" type="text/css"
-		media="all">
-	<link rel="stylesheet" id="js_composer_front-css" href="./XytiQ technologies_files/js_composer.min.css"
-		type="text/css" media="all">
-	<script type="text/javascript" src="./XytiQ technologies_files/jquery.js.download" id="jquery-core-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/jquery.themepunch.tools.min.js.download"
-		id="tp-tools-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/jquery.themepunch.revolution.min.js.download"
-		id="revmin-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/modernizr.custom.js.download"
-		id="modernizr-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/js" id="mapapi-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/mb.bgndGallery.js.download"
-		id="bgndGallery-js"></script>
+	<link rel="stylesheet" id="contact-form-7-css" href="./css/styles.css" type="text/css" media="all">
+	<link rel="stylesheet" id="demeter-fonts-css" href="./css/css" type="text/css" media="all">
+	<link rel="stylesheet" id="base-css" href="./css/base.css" type="text/css" media="all">
+	<link rel="stylesheet" id="skeleton-css" href="./css/skeleton.css" type="text/css" media="all">
+	<link rel="stylesheet" id="demeter-font-awesome-css" href="./css/font-awesome.css" type="text/css" media="all">
+	<link rel="stylesheet" id="flaticon-css" href="./css/flaticon.css" type="text/css" media="all">
+	<link rel="stylesheet" id="owl.carousel-css" href="./css/owl.carousel.css" type="text/css" media="all">
+	<link rel="stylesheet" id="revolution-css" href="./css/settings(1).css" type="text/css" media="all">
+	<link rel="stylesheet" id="retina-css" href="./css/retina.css" type="text/css" media="all">
+	<link rel="stylesheet" id="colorbox-css" href="./css/colorbox.css" type="text/css" media="all">
+	<link rel="stylesheet" id="style-css" href="./css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" id="dark-color-css" href="./css/dark-color.css" type="text/css" media="all">
+	<link rel="stylesheet" id="js_composer_front-css" href="./css/js_composer.min.css" type="text/css" media="all">
+	<script type="text/javascript" src="./js/jquery.js.download" id="jquery-core-js"></script>
+	<script type="text/javascript" src="./js/jquery.themepunch.tools.min.js.download" id="tp-tools-js"></script>
+	<script type="text/javascript" src="./js/jquery.themepunch.revolution.min.js.download" id="revmin-js"></script>
+	<script type="text/javascript" src="./js/modernizr.custom.js.download" id="modernizr-js"></script>
+	<script type="text/javascript" src="./js/js" id="mapapi-js"></script>
+	<script type="text/javascript" src="./js/mb.bgndGallery.js.download" id="bgndGallery-js"></script>
 	<link rel="https://api.w.org/" href="https://xytiqtechnologies.com/wp-json/">
 	<link rel="alternate" type="application/json" href="https://xytiqtechnologies.com/wp-json/wp/v2/pages/602">
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://xytiqtechnologies.com/xmlrpc.php?rsd">
@@ -453,6 +453,15 @@
 			background-position: 0 0 !important;
 			background-repeat: no-repeat !important;
 		}
+
+		.middle_align {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			align-content: space-around;
+			justify-content: space-around;
+			align-items: stretch;
+		}
 	</style><noscript>
 		<style type="text/css">
 			.wpb_animate_when_almost_visible {
@@ -460,10 +469,21 @@
 			}
 		</style>
 	</noscript>
-	<script type="text/javascript" charset="UTF-8" src="./XytiQ technologies_files/common.js.download"></script>
-	<script type="text/javascript" charset="UTF-8" src="./XytiQ technologies_files/util.js.download"></script>
-	<script type="text/javascript" charset="UTF-8" src="./XytiQ technologies_files/map.js.download"></script>
-	<script type="text/javascript" charset="UTF-8" src="./XytiQ technologies_files/marker.js.download"></script>
+
+
+	<script>
+
+
+
+		function changeDailog(number) {
+			$('#ad-container' + number).show().siblings().hide();
+			$('#pointer' + number).show().siblings().hide();
+		}
+	</script>
+	<script type="text/javascript" charset="UTF-8" src="./js/common.js.download"></script>
+	<script type="text/javascript" charset="UTF-8" src="./js/util.js.download"></script>
+	<script type="text/javascript" charset="UTF-8" src="./js/map.js.download"></script>
+	<script type="text/javascript" charset="UTF-8" src="./js/marker.js.download"></script>
 </head>
 
 <body
@@ -471,7 +491,7 @@
 	<div id="menu-wrap" class="menu-back cbp-af-header">
 		<div class="section boxed-width-menu">
 			<a href="https://xytiqtechnologies.com/"><img class="logos"
-					src="./XytiQ technologies_files/Xytiq_logo_WHITE-e1544074390138.png" alt="XytiQ technologies"></a>
+					src="./Assets/images/Xytiq_logo_WHITE-e1544074390138.png" alt="XytiQ technologies"></a>
 			<div class="menu-collapser" style="display: none;">
 				<div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span
 						class="icon-bar"></span></div>
@@ -486,10 +506,10 @@
 						href="#whyxytiq" class="_mPS2id-h">Why XytiQ</a></li>
 				<li id="menu-item-786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-786"><a
 						href="#technology" class="_mPS2id-h">Technology</a></li>
-				<li id="menu-item-787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-787"><a
-						href="#industries" class="_mPS2id-h">Industries</a></li>
-				<li id="menu-item-788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-788"><a
-						href="#careers" class="_mPS2id-h">Careers</a></li>
+				<!-- <li id="menu-item-787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-787"><a
+						href="#industries" class="_mPS2id-h">Industries</a></li> -->
+				<!-- <li id="menu-item-788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-788"><a
+						href="#careers" class="_mPS2id-h">Careers</a></li> -->
 				<li id="menu-item-789" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-789"><a
 						href="#contact" class="_mPS2id-h">Contact</a></li>
 			</ul>
@@ -504,8 +524,8 @@
 					<div class="wpb_wrapper ">
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
-								<link href="./XytiQ technologies_files/css(1)" rel="stylesheet" property="stylesheet"
-									type="text/css" media="all">
+								<link href="./css/css(1)" rel="stylesheet" property="stylesheet" type="text/css"
+									media="all">
 								<div class="forcefullwidth_wrapper_tp_banner" id="rev_slider_3_1_forcefullwidth"
 									style="position:relative;width:100%;height:auto;margin-top:0px;margin-bottom:0px">
 									<div id="rev_slider_3_1_wrapper"
@@ -586,7 +606,7 @@
 																	data-paddingright="[0,0,0,0]"
 																	data-paddingbottom="[0,0,0,0]"
 																	data-paddingleft="[0,0,0,0]"
-																	style="z-index: 6; min-width: 961px; max-width: 961px; white-space: nowrap; font-size: 54px; line-height: 53px; font-weight: 900; color: rgb(255, 255, 255); letter-spacing: 0px; font-family: &quot;Libre Franklin&quot;; visibility: inherit; transition: none; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; min-height: 104px; max-height: 104px; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
+																	style="z-index: 6; min-width: 961px; max-width: 961px; white-space: nowrap; font-size: 54px; line-height: 53px; font-weight: 900; color: rgb(255, 255, 255); letter-spacing: 0px; font-family: Libre Franklin; visibility: inherit; transition: none; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; min-height: 104px; max-height: 104px; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;">
 																	YOU NEED <span class="yellow-color"
 																		style="transition: none; text-align: inherit; line-height: 46px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-weight: 900; font-size: 46px;">
 																		TWO HANDS</span> TO CLAP<br>
@@ -859,9 +879,9 @@
 				<div class="wpb_column vc_column_container twelve columns"
 					data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
 					<div class="">
-						<div class="wpb_wrapper ">
-							<div class="vc_row wpb_row vc_inner">
-								<div class="wpb_column vc_column_container four columns">
+						<div class="wpb_wrapper">
+							<div class="vc_row wpb_row vc_inner middle_align">
+								<!-- <div class="wpb_column vc_column_container four columns">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
 											<div class="wpb_text_column wpb_content_element  vc_custom_1527338872271">
@@ -894,7 +914,7 @@
 																data-target="#demo" rel="noopener noreferrer"><img
 																	loading="lazy"
 																	class="alignnone size-full wp-image-872"
-																	src="./XytiQ technologies_files/top-icon.png" alt=""
+																	src="./Assets/images/top-icon.png" alt=""
 																	width="30" height="20"
 																	srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 																	sizes="(max-width: 30px) 100vw, 30px"></a>
@@ -931,7 +951,7 @@
 																data-target="#demo4" rel="noopener noreferrer"><img
 																	loading="lazy" width="30" height="20"
 																	class="alignnone size-full wp-image-872"
-																	src="./XytiQ technologies_files/top-icon.png"
+																	src="./Assets/images/top-icon.png"
 																	srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 																	sizes="(max-width: 30px) 100vw, 30px"></a></p>
 													</div>
@@ -940,7 +960,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div class="wpb_column vc_column_container four columns">
 									<div class="vc_column-inner ">
 										<div class="wpb_wrapper">
@@ -972,7 +992,7 @@
 																data-target="#demo2" rel="noopener noreferrer"><img
 																	loading="lazy"
 																	class="alignnone size-full wp-image-872"
-																	src="./XytiQ technologies_files/top-icon.png"
+																	src="./Assets/images/top-icon.png"
 																	sizes="(max-width: 30px) 100vw, 30px"
 																	srcset="http://www.xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, http://www.xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 																	alt="" width="30" height="20"></a>
@@ -982,7 +1002,7 @@
 												</div>
 											</div>
 
-											<div class="wpb_text_column wpb_content_element  vc_custom_1527338884502">
+											<!-- <div class="wpb_text_column wpb_content_element  vc_custom_1527338884502">
 												<div class="wpb_wrapper">
 													<div class="services-item white-background net-and-sec">
 														<h6>Network and Security</h6>
@@ -1012,13 +1032,13 @@
 																data-target="#demo5" rel="noopener noreferrer"><img
 																	loading="lazy" width="30" height="20"
 																	class="alignnone size-full wp-image-872"
-																	src="./XytiQ technologies_files/top-icon.png"
+																	src="./Assets/images/top-icon.png"
 																	srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 																	sizes="(max-width: 30px) 100vw, 30px"></a></p>
 													</div>
 
 												</div>
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</div>
@@ -1053,7 +1073,7 @@
 																data-target="#demo3" rel="noopener noreferrer"><img
 																	loading="lazy"
 																	class="alignnone size-full wp-image-872"
-																	src="./XytiQ technologies_files/top-icon.png"
+																	src="./Assets/images/top-icon.png"
 																	sizes="(max-width: 30px) 100vw, 30px"
 																	srcset="http://www.xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, http://www.xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 																	alt="" width="30" height="20"></a>
@@ -1063,7 +1083,7 @@
 												</div>
 											</div>
 
-											<div class="wpb_text_column wpb_content_element  vc_custom_1527338898807">
+											<!-- <div class="wpb_text_column wpb_content_element  vc_custom_1527338898807">
 												<div class="wpb_wrapper">
 													<div class="services-item white-background tele-and-iot">
 														<h6>Telecommunication and IOT</h6>
@@ -1099,13 +1119,13 @@
 																data-target="#demo6" rel="noopener noreferrer"><img
 																	loading="lazy" width="30" height="20"
 																	class="alignnone size-full wp-image-872"
-																	src="./XytiQ technologies_files/top-icon.png"
+																	src="./Assets/images/top-icon.png"
 																	srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 																	sizes="(max-width: 30px) 100vw, 30px"></a></p>
 													</div>
 
 												</div>
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</div>
@@ -1153,7 +1173,7 @@
 										<p><a class="knowmore-close" data-toggle="collapse" data-target="#demo7"
 												rel="noopener noreferrer"><img loading="lazy" width="30" height="20"
 													class="alignnone size-full wp-image-872"
-													src="./XytiQ technologies_files/top-icon.png"
+													src="./Assets/images/top-icon.png"
 													srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 													sizes="(max-width: 30px) 100vw, 30px"></a></p>
 									</div>
@@ -1189,7 +1209,7 @@
 											<a class="knowmore-close" data-toggle="collapse" data-target="#demo8"
 												rel="noopener noreferrer"><img loading="lazy" width="30" height="20"
 													class="alignnone size-full wp-image-872"
-													src="./XytiQ technologies_files/top-icon.png"
+													src="./Assets/images/top-icon.png"
 													srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 													sizes="(max-width: 30px) 100vw, 30px"></a>
 										</p>
@@ -1225,7 +1245,7 @@
 										<p><a class="knowmore-close" data-toggle="collapse" data-target="#demo9"
 												rel="noopener noreferrer"><img loading="lazy" width="30" height="20"
 													class="alignnone size-full wp-image-872"
-													src="./XytiQ technologies_files/top-icon.png"
+													src="./Assets/images/top-icon.png"
 													srcset="https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon.png 30w, https://xytiqtechnologies.com/wp-content/uploads/2018/05/top-icon-768x512.png 768w"
 													sizes="(max-width: 30px) 100vw, 30px"></a></p>
 									</div>
@@ -1264,7 +1284,7 @@
 											<div class="owl-wrapper-outer autoHeight" style="height: 75px;">
 												<div class="owl-wrapper"
 													style="width: 7080px; left: 0px; display: block;">
-													<div class="owl-item" style="width: 1180px;">
+													<div id="ad-container1" class="owl-item" style="width: 1180px;">
 														<div class="item">
 															<ul class="whyxytiq">
 																<li>24/7 sourcing and hiring team to meet your timeline
@@ -1276,7 +1296,7 @@
 															</ul>
 														</div>
 													</div>
-													<div class="owl-item" style="width: 1180px;">
+													<div id="ad-container2" class="owl-item" style="width: 1180px;">
 														<div class="item">
 															<ul class="whyxytiq">
 																<li>Go beyond the traditional ways and conduct Interview
@@ -1285,7 +1305,7 @@
 															</ul>
 														</div>
 													</div>
-													<div class="owl-item" style="width: 1180px;">
+													<div id="ad-container3" class="owl-item" style="width: 1180px;">
 														<div class="item">
 															<ul class="whyxytiq">
 																<li>Provide Turnkey consulting solutions</li>
@@ -1311,27 +1331,23 @@
 												<div class="owl-wrapper"
 													style="width: 1098px; left: 0px; display: block;">
 													<div class="owl-item synced" style="width: 183px;">
-														<div class="item">
-															<div class="line"></div>
-															<div class="line-ver"></div>
-															<div class="point-item "></div>
-															<p>XytiQ Advantages</p>
+														<div class="item">																																													
+															<p style="
+															margin-top: -39px;
+														" onclick="changeDailog(1)">XytiQ Advantages</p>
 														</div>
 													</div>
 													<div class="owl-item" style="width: 183px;">
-														<div class="item">
-															<div class="line"></div>
-															<div class="line-ver"></div>
-															<div class="point-item "></div>
-															<p>How we do</p>
+														<div class="item">																														<p style="
+															margin-top: -39px;
+														" onclick="changeDailog(2)">How we do</p>
 														</div>
 													</div>
 													<div class="owl-item" style="width: 183px;">
-														<div class="item">
-															<div class="line"></div>
-															<div class="line-ver"></div>
-															<div class="point-item "></div>
-															<p>Our Process</p>
+														<div class="item">															
+															<p style="
+															margin-top: -39px;
+														" onclick="changeDailog(3)">Our Process</p>
 														</div>
 													</div>
 												</div>
@@ -1352,7 +1368,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="industries" class="relative vc_row wpb_row vc_custom_1524324066327 _mPS2id-t">
+	<!-- <section id="industries" class="relative vc_row wpb_row vc_custom_1524324066327 _mPS2id-t">
 		<div class="container">
 			<div class="twelve columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
 				<div class="header-section-text">
@@ -1388,7 +1404,7 @@
 														<div class="services-item white-background-indus">
 															<div class="icon-services "><img
 																	class="alignnone size-full wp-image-923"
-																	src="./XytiQ technologies_files/automotive.png">
+																	src="./Assets/images/automotive.png">
 															</div>
 															<h6>Automotive</h6>
 															<p>Leader in Automotives domain with strong team</p>
@@ -1399,7 +1415,7 @@
 														<div class="services-item white-background-indus">
 															<div class="icon-services "><img
 																	class="alignnone size-full wp-image-923"
-																	src="./XytiQ technologies_files/artificial-intelligence.png">“
+																	src="./Assets/images/artificial-intelligence.png">“
 															</div>
 															<h6>Artificial intelegence and machine learning</h6>
 															<p>built team with cutting edge skills sets</p>
@@ -1410,7 +1426,7 @@
 														<div class="services-item white-background-indus">
 															<div class="icon-services "><img
 																	class="alignnone size-full wp-image-923"
-																	src="./XytiQ technologies_files/Industrial-Automation.png">
+																	src="./Assets/images/Industrial-Automation.png">
 															</div>
 															<h6>Industrial Automation</h6>
 															<p>Create the factory of the future with</p>
@@ -1432,7 +1448,7 @@
 														<div class="services-item white-background-indus">
 															<div class="icon-services "><img
 																	class="alignnone size-full wp-image-924"
-																	src="./XytiQ technologies_files/Hospitality.png">
+																	src="./Assets/images/Hospitality.png">
 															</div>
 															<h6>Healthcare</h6>
 															<p>The Global healthcare industry experts</p>
@@ -1443,7 +1459,7 @@
 														<div class="services-item white-background-indus">
 															<div class="icon-services "><img
 																	class="alignnone size-full wp-image-927"
-																	src="./XytiQ technologies_files/storage-networking.png">
+																	src="./Assets/images/storage-networking.png">
 															</div>
 															<h6>Storage, Networking Telecommunication</h6>
 															<p>leading global players with efficient team</p>
@@ -1454,7 +1470,7 @@
 														<div class="services-item white-background-indus">
 															<div class="icon-services "><img
 																	class="alignnone size-full wp-image-926"
-																	src="./XytiQ technologies_files/Semiconductor-Software.png">
+																	src="./Assets/images/Semiconductor-Software.png">
 															</div>
 															<h6>Semiconductor Sofware</h6>
 															<p>Turnkey VLSI design Service Company</p>
@@ -1472,8 +1488,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section id="contact" class="relative vc_row wpb_row vc_custom_1424968688790 vc_row-has-fill _mPS2id-t">
+	</section> -->
+	<!-- <section id="contact" class="relative vc_row wpb_row vc_custom_1424968688790 vc_row-has-fill _mPS2id-t">
 		<div class="container">
 			<div class="twelve columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
 				<div class="header-section-text">
@@ -1565,9 +1581,9 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="relative vc_row wpb_row vc_custom_1424968700692 vc_row-has-fill">
-		<div class="container">
+	</section> -->
+	<section id="contact" class="relative vc_row wpb_row vc_custom_1424968700692 vc_row-has-fill">
+		<div class="container" style="margin-top:19%;">
 			<div class="rows">
 				<div class="wpb_column vc_column_container six columns"
 					data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
@@ -1612,7 +1628,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="careers" class="relative vc_row wpb_row vc_custom_1524324066327 _mPS2id-t">
+	<!-- <section id="careers" class="relative vc_row wpb_row vc_custom_1524324066327 _mPS2id-t">
 		<div class="container">
 			<div class="twelve columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
 				<div class="header-section-text">
@@ -1722,7 +1738,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="relative vc_row wpb_row">
 		<div class="rows">
 			<div class="wpb_column vc_column_container twelve columns"
@@ -1732,10 +1748,15 @@
 						<div class="wpb_text_column wpb_content_element ">
 							<div class="wpb_wrapper">
 
+
+
+
+
+
 								<div id="cd-google-map">
-									<div id="google-container" style="position: relative;width: 100%;height: 500px;">
+									<!-- <div id="google-container" style="position: relative;width: 100%;height: 500px;">
 										<div style="height: 100%; width: 100%;"></div>
-									</div>
+									</div> -->
 
 
 									<address># 201, 17 Chinnaswamy, Mudaliar Road, Tasker Town, Bangalore – 560051
@@ -1997,9 +2018,9 @@
 
 
 	<div class="footer-wrap">
-		<a href="https://xytiqtechnologies.com/#top" data-gal="m_PageScroll2id" data-ps2id-offset="30">
+		<!-- <a href="https://xytiqtechnologies.com/#top" data-gal="m_PageScroll2id" data-ps2id-offset="30">
 			<div class="arrow-up"></div>
-		</a>
+		</a> -->
 		<div class="footer-social">
 			<div class="container">
 				<div class="twelve columns">
@@ -2033,21 +2054,17 @@
 	<script type="text/javascript" id="contact-form-7-js-extra">
 		var wpcf7 = { "apiSettings": { "root": "https:\/\/xytiqtechnologies.com\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" }, "recaptcha": { "messages": { "empty": "Please verify that you are not a robot." } } };
 	</script>
-	<script type="text/javascript" src="./XytiQ technologies_files/scripts.js.download" id="contact-form-7-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/comment-reply.min.js.download"
-		id="comment-reply-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/pro-bars.js.download" id="probars-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/plugins.js.download" id="plugins-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/jquery.fitvids.js.download" id="fitvids-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/YTPlayer.js.download" id="YTPlayer-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/jquery.parallax-1.1.3.js.download"
-		id="parallax-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/jquery.colorbox.js.download"
-		id="colorbox-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/template.js.download" id="template-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/wp-embed.min.js.download" id="wp-embed-js"></script>
-	<script type="text/javascript" src="./XytiQ technologies_files/js_composer_front.min.js.download"
-		id="wpb_composer_front_js-js"></script>
+	<script type="text/javascript" src="./js/scripts.js.download" id="contact-form-7-js"></script>
+	<script type="text/javascript" src="./js/comment-reply.min.js.download" id="comment-reply-js"></script>
+	<script type="text/javascript" src="./js/pro-bars.js.download" id="probars-js"></script>
+	<script type="text/javascript" src="./js/plugins.js.download" id="plugins-js"></script>
+	<script type="text/javascript" src="./js/jquery.fitvids.js.download" id="fitvids-js"></script>
+	<script type="text/javascript" src="./js/YTPlayer.js.download" id="YTPlayer-js"></script>
+	<script type="text/javascript" src="./js/jquery.parallax-1.1.3.js.download" id="parallax-js"></script>
+	<script type="text/javascript" src="./js/jquery.colorbox.js.download" id="colorbox-js"></script>
+	<script type="text/javascript" src="./js/template.js.download" id="template-js"></script>
+	<script type="text/javascript" src="./js/wp-embed.min.js.download" id="wp-embed-js"></script>
+	<script type="text/javascript" src="./js/js_composer_front.min.js.download" id="wpb_composer_front_js-js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			$("#demo").mouseleave(function () {

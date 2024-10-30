@@ -9444,10 +9444,9 @@ ul.nav li a {
 } 
 
 ul.nav li.active {
-  background: url(images/about-icon.png);
+  background: url(../Assets/images/about-icon.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    /* text-align: center; */
     background-position: bottom;
     padding-bottom: 79px;
 }
